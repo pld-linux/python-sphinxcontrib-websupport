@@ -1,0 +1,10 @@
+--- sphinxcontrib-websupport-1.1.0/setup.py.orig	2018-06-03 09:45:04.000000000 +0200
++++ sphinxcontrib-websupport-1.1.0/setup.py	2018-07-21 11:16:55.940790914 +0200
+@@ -11,7 +11,6 @@
+     # Environment Marker works for wheel 0.24 or later
+     'test': [
+         'pytest',
+-        'mock',  # it would be better for 'test:python_version in 2.7'
+     ],
+ }
+ 
