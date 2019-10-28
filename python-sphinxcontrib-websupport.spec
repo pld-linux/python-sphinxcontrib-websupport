@@ -8,7 +8,7 @@ Summary:	Sphinx API for Web Apps
 Summary(pl.UTF-8):	API Sphinksa dla aplikacji WWW
 Name:		python-sphinxcontrib-websupport
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinxcontrib-websupport/
