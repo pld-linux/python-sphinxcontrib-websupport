@@ -1,12 +1,14 @@
+# NOTE: for versions >= 1.2.1 (for python 3.5+) see python3-sphinxcontrib-websupport.spec
 #
 # Conditional build:
 %bcond_with	tests	# unit tests (require already installed package???)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-sphinxcontrib-websupport.spec)
 
 Summary:	Sphinx API for Web Apps
 Summary(pl.UTF-8):	API Sphinksa dla aplikacji WWW
 Name:		python-sphinxcontrib-websupport
+# keep 1.1.x here for python2 support
 Version:	1.1.2
 Release:	1
 License:	BSD
