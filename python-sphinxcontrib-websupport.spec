@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	API Sphinksa dla aplikacji WWW
 Name:		python-sphinxcontrib-websupport
 # keep 1.1.x here for python2 support
 Version:	1.1.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/sphinxcontrib-websupport/
