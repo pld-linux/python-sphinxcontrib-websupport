@@ -77,7 +77,7 @@ dokumentacji tworzonej z użyciem Sphinksa w aplikacji WWW.
 
 %prep
 %setup -q -n sphinxcontrib-websupport-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %if %{with python2}
